@@ -1,10 +1,14 @@
 body {
     margin: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .avatar {
     width: 150px;
+}
+
+.avatar:hover {
+    background-color: #0077b6;
 }
 
 .card {
@@ -14,7 +18,7 @@ body {
     justify-content: space-around;
     margin: 0 auto;
     text-align: center;
-    background: #ccd5ae;
+    background: #f2cc8f;
     color: #2b2839;
-    border-bottom: 6px solid #023e8a;
+    border-bottom: 6px solid #6d6875;
 }
